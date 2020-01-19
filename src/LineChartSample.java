@@ -96,8 +96,8 @@ public class LineChartSample extends Application {
 
         final CategoryAxis xAxis1 = new CategoryAxis();
         final NumberAxis yAxis1 = new NumberAxis();
-        xAxis1.setLabel("Frequency");
-        yAxis1.setLabel("Amplitude");
+        xAxis1.setLabel("Amplitude");
+        yAxis1.setLabel("Frequency");
         final BarChart<String,Number> bc =
                 new BarChart<String,Number>(xAxis1,yAxis1);
         bc.setTitle("Amplitude frequency response");
